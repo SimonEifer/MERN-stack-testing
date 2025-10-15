@@ -1,8 +1,8 @@
-import type { TExam } from "../../lib/exams/types";
-import { useExam } from "../hooks/useExam";
+import type { TExam } from "../../../lib/exams/types";
+import { useExam } from "../../hooks/useExam";
 
 //
-const ExamDisplay = ({
+const ExamList = ({
 	exams,
 	onDeleteSuccess,
 }: {
@@ -53,4 +53,4 @@ const ExamDisplay = ({
 		</div>
 	);
 };
-export default ExamDisplay;
+export default ExamList;

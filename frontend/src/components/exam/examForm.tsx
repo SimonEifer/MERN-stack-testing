@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SubmitExamButton from "./submitExamButton";
-import { handleSubmit } from "./utils/appUtils";
+import { handleSubmit } from "./utils/examUtils";
 
 const ExamForm = ({ refetchExams }: { refetchExams: () => void }) => {
 	const [title, setTitle] = useState<string | null>(null);

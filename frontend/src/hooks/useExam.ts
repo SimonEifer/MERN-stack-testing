@@ -1,7 +1,7 @@
 // api hooks for exams
 import type { TExam } from "../../lib/exams/types";
-import addNotification from "../components/addNotification";
-import apiClient from "./apiClient";
+import apiClient from "../apiClient";
+import addNotification from "../components/component-lib/addNotification";
 
 export const useExam = () => {
 	// get all exams

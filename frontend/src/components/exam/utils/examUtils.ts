@@ -1,7 +1,7 @@
 import { ZodError } from "zod";
-import { examSchema } from "../../../lib/exams/schemas";
-import type { TExam } from "../../../lib/exams/types";
-import { useExam } from "../../hooks/useExam";
+import { examSchema } from "../../../../lib/exams/schemas";
+import type { TExam } from "../../../../lib/exams/types";
+import { useExam } from "../../../hooks/useExam";
 
 const { createExam } = useExam();
 
